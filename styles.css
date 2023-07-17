@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0eade; /* Cor de fundo com aparência medieval */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #b0885c; /* Borda com aparência medieval */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #e1ceb5; /* Cor de fundo interna com aparência medieval */
+}
+
+h1 {
+    text-align: center;
+    color: #b0885c; /* Cor do título com aparência medieval */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info p {
+    margin: 0;
+    color: #b0885c; /* Cor dos textos com aparência medieval */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #c1a380; /* Cor do botão com aparência medieval */
+    color: #fff; /* Cor do texto do botão com aparência medieval */
+}
+
+.buttons button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.upgrade-info {
+    margin-top: 20px;
+}
+
+.upgrade-info p {
+    margin: 0;
+    color: #b0885c; /* Cor dos textos com aparência medieval */
+}
+
+.upgrade-info span {
+    font-weight: bold;
+    color: #a8743b; /* Cor dos números em negrito com aparência medieval */
+}
+
+.export-import {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    background-color: #e1ceb5; /* Cor de fundo com aparência medieval */
+}
+
+.export-import input {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #b0885c; /* Cor da borda com aparência medieval */
+    border-radius: 5px;
+    width: 200px;
+}

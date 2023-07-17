@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWRPG</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TWRPG</h1>
+        <div class="info">
+            <p id="pointsDisplay">Gold: 0</p>
+            <p>Valor do Clique: <span id="clickValueDisplay">1</span> Gold/clique</p>
+        </div>
+        <div class="buttons">
+            <button id="clickButton">Clique Aqui! (1 Gold/clique)</button>
+            <button id="clickUpgradeButton">Melhorar Clique (Custo: 20)</button>
+            <button id="passiveUpgradeButton">Melhorar Ganho Passivo (Custo: 50)</button>
+        </div>
+        <div class="upgrade-info">
+            <p>Ganho Passivo Atual: <span id="passiveIncomeDisplay">1</span> Gold/segundo</p>
+        </div>
+    </div>
+    <div class="export-import">
+        <button id="exportButton">Exportar Progresso</button>
+        <input type="text" id="importInput" placeholder="Cole o código de importação aqui">
+        <button id="importButton">Importar Progresso</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
